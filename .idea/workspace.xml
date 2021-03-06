@@ -25,9 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Added Bootstrap tmeplate">
+    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Added gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/customerlogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/customerlogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="maria" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,15 +64,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public" />
-      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public\demo" />
       <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public" />
       <recent name="C:\Users\maria\PycharmProjects\sustainablecommune" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public" />
+      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\views" />
     </key>
   </component>
   <component name="RunManager">
@@ -175,22 +176,22 @@
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1615040373029" />
     <state x="108" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.804@0.25.1440.804" timestamp="1615055070628" />
-    <state width="1059" height="196" key="GridCell.Tab.0.bottom" timestamp="1615055075976">
+    <state width="856" height="196" key="GridCell.Tab.0.bottom" timestamp="1615061528282">
       <screen x="0" y="25" width="1440" height="804" />
     </state>
-    <state width="1059" height="196" key="GridCell.Tab.0.bottom/0.25.1440.804@0.25.1440.804" timestamp="1615055075976" />
-    <state width="1059" height="196" key="GridCell.Tab.0.center" timestamp="1615055075975">
+    <state width="856" height="196" key="GridCell.Tab.0.bottom/0.25.1440.804@0.25.1440.804" timestamp="1615061528282" />
+    <state width="856" height="196" key="GridCell.Tab.0.center" timestamp="1615061528282">
       <screen x="0" y="25" width="1440" height="804" />
     </state>
-    <state width="1059" height="196" key="GridCell.Tab.0.center/0.25.1440.804@0.25.1440.804" timestamp="1615055075975" />
-    <state width="1059" height="196" key="GridCell.Tab.0.left" timestamp="1615055075974">
+    <state width="856" height="196" key="GridCell.Tab.0.center/0.25.1440.804@0.25.1440.804" timestamp="1615061528282" />
+    <state width="856" height="196" key="GridCell.Tab.0.left" timestamp="1615061528282">
       <screen x="0" y="25" width="1440" height="804" />
     </state>
-    <state width="1059" height="196" key="GridCell.Tab.0.left/0.25.1440.804@0.25.1440.804" timestamp="1615055075974" />
-    <state width="1059" height="196" key="GridCell.Tab.0.right" timestamp="1615055075975">
+    <state width="856" height="196" key="GridCell.Tab.0.left/0.25.1440.804@0.25.1440.804" timestamp="1615061528282" />
+    <state width="856" height="196" key="GridCell.Tab.0.right" timestamp="1615061528282">
       <screen x="0" y="25" width="1440" height="804" />
     </state>
-    <state width="1059" height="196" key="GridCell.Tab.0.right/0.25.1440.804@0.25.1440.804" timestamp="1615055075975" />
+    <state width="856" height="196" key="GridCell.Tab.0.right/0.25.1440.804@0.25.1440.804" timestamp="1615061528282" />
     <state x="262" y="112" key="Vcs.Push.Dialog.v2" timestamp="1615056592550">
       <screen x="0" y="25" width="1440" height="804" />
     </state>
