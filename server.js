@@ -31,6 +31,6 @@ app.put('/users/:id', db.updateUser)
 app.delete('/users/:id', db.deleteUser)
 
 // listen for requests :)
-const listener = app.listen(process.env.PORT, () => {
+const listener = app.listen(process.env.PORT = 8080, () => {
   console.log("Your app is listening on port " + listener.address().port);
 });

@@ -13,11 +13,12 @@ const pool = new Pool({
 });
 
 const getUsers = (request, response) => {
-  pool.query('select * from merchants', (error, results) => {
+  pool.query('select * from inventory', (error, results) => {
     if (error) {
       throw error
     }
     response.status(200).json(results.rows)
+    console.log(results.rows);
   })
 }
 
