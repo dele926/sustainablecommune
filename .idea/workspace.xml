@@ -28,6 +28,7 @@
     <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Added get/post requests to server.js (work in progress, looking at tutorial)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/queries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,14 +61,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\views" />
+      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public\demo" />
       <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public" />
       <recent name="C:\Users\maria\PycharmProjects\sustainablecommune" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\views" />
-      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public" />
     </key>
   </component>
   <component name="SvnConfiguration">

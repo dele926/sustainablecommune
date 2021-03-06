@@ -21,16 +21,12 @@ app.use(express.static("public"));
 
 // https://expressjs.com/en/starter/basic-routing.html
 app.get("/", (request, response) => {
-  response.json({ info: 'Node.js, Express, and Postgres API' })
+  response.render(__dirname + "/views/index.html");
 });
 
 app.get('/users', db.getUsers)
-app.get('/users/:id', db.getUserById)
-app.post('/users', db.createUser)
-app.put('/users/:id', db.updateUser)
-app.delete('/users/:id', db.deleteUser)
 
 // listen for requests :)
-const listener = app.listen(process.env.PORT, () => {
-  console.log("Your app is listening on port " + listener.address().port);
+const listener = app.listen(3000, () => {
+  console.log("Your app is listening on port " + 3000);
 });
