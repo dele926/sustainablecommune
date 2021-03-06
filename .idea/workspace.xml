@@ -25,10 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Finished registration page">
+    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Homepage stores">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/demo/css/sb-admin-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/demo/css/sb-admin-2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/demo/js/demo/chart-area-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/demo/js/demo/chart-area-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/demo/img/undraw_profile_3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/demo/img/undraw_profile_3.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/homepage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615066482534</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Homepage stores">
+      <created>1615072617831</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615072617831</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -170,6 +176,7 @@
     <MESSAGE value="Added Bootstrap tmeplate" />
     <MESSAGE value="Finished registration page" />
     <MESSAGE value="Registration page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished registration page" />
+    <MESSAGE value="Homepage stores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homepage stores" />
   </component>
 </project>
