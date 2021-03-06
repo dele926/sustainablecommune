@@ -25,9 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Added Bootstrap tmeplate">
+    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Added Bootstrap template">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/customerlogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/customerlogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/demo/css/sb-admin-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/demo/css/sb-admin-2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/registeruser.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/registeruser.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +50,6 @@
       </set>
     </option>
   </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
-  </component>
   <component name="ProjectId" id="1pO1kGfWCOkD2tm9c70xOumkVmw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -63,33 +61,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public" />
-      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public\demo" />
       <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public" />
       <recent name="C:\Users\maria\PycharmProjects\sustainablecommune" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public" />
+      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\views" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -129,15 +111,18 @@
       <option name="project" value="LOCAL" />
       <updated>1615051867195</updated>
     </task>
-    <task id="LOCAL-00005" summary="Added Bootstrap tmeplate">
-      <created>1615056589254</created>
+    <task id="LOCAL-00005" summary="Added Bootstrap template">
+      <created>1615056611478</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1615056589255</updated>
+      <updated>1615056611478</updated>
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -167,35 +152,18 @@
     <MESSAGE value="Hello world" />
     <MESSAGE value="Add bootstrap template" />
     <MESSAGE value="Added Bootstrap tmeplate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Bootstrap tmeplate" />
+    <MESSAGE value="Added Bootstrap template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Bootstrap template" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="108" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615055070628">
-      <screen x="0" y="25" width="1440" height="804" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615040373029">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1615040373029" />
-    <state x="108" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.804@0.25.1440.804" timestamp="1615055070628" />
-    <state width="1059" height="196" key="GridCell.Tab.0.bottom" timestamp="1615055075976">
-      <screen x="0" y="25" width="1440" height="804" />
-    </state>
-    <state width="1059" height="196" key="GridCell.Tab.0.bottom/0.25.1440.804@0.25.1440.804" timestamp="1615055075976" />
-    <state width="1059" height="196" key="GridCell.Tab.0.center" timestamp="1615055075975">
-      <screen x="0" y="25" width="1440" height="804" />
-    </state>
-    <state width="1059" height="196" key="GridCell.Tab.0.center/0.25.1440.804@0.25.1440.804" timestamp="1615055075975" />
-    <state width="1059" height="196" key="GridCell.Tab.0.left" timestamp="1615055075974">
-      <screen x="0" y="25" width="1440" height="804" />
-    </state>
-    <state width="1059" height="196" key="GridCell.Tab.0.left/0.25.1440.804@0.25.1440.804" timestamp="1615055075974" />
-    <state width="1059" height="196" key="GridCell.Tab.0.right" timestamp="1615055075975">
-      <screen x="0" y="25" width="1440" height="804" />
-    </state>
-    <state width="1059" height="196" key="GridCell.Tab.0.right/0.25.1440.804@0.25.1440.804" timestamp="1615055075975" />
-    <state x="262" y="112" key="Vcs.Push.Dialog.v2" timestamp="1615056592550">
-      <screen x="0" y="25" width="1440" height="804" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615051873805">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615051873805" />
-    <state x="262" y="112" key="Vcs.Push.Dialog.v2/0.25.1440.804@0.25.1440.804" timestamp="1615056592550" />
     <state x="427" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615051854261">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
