@@ -25,12 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="ECOmmunity!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/hallScores.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/hallScores.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scoreTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/scoreTable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/dynamic.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dynamic.ejs" afterDir="false" />
-    </list>
+    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Shopping basket changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615114051606</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Shopping basket changes">
+      <created>1615114240098</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615114240098</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -198,6 +200,7 @@
     <MESSAGE value="Colour scheme" />
     <MESSAGE value="Register user page" />
     <MESSAGE value="ECOmmunity!" />
-    <option name="LAST_COMMIT_MESSAGE" value="ECOmmunity!" />
+    <MESSAGE value="Shopping basket changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shopping basket changes" />
   </component>
 </project>
