@@ -20,13 +20,16 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Register user page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/paymentconfirmed.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/paymentconfirmed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/hallScores.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/hallScores.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scoreTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/scoreTable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/dynamic.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dynamic.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
