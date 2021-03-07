@@ -25,7 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Register user page" />
+    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Register user page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/paymentconfirmed.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/paymentconfirmed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scoreTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/scoreTable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/dynamic.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dynamic.ejs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,10 +197,11 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1615040373029" />
-    <state x="121" y="51" key="MergeDialog" timestamp="1615103611056">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="136" y="85" key="MergeDialog" timestamp="1615112952657">
+      <screen x="0" y="25" width="1440" height="804" />
     </state>
     <state x="121" y="51" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1615103611056" />
+    <state x="136" y="85" key="MergeDialog/0.25.1440.804@0.25.1440.804" timestamp="1615112952657" />
     <state x="280" y="102" key="MultipleFileMergeDialog" timestamp="1615078297146">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
