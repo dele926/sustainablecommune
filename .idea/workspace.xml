@@ -20,14 +20,20 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:maria" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Added Bootstrap tmeplate">
+    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Delete uneeded files">
+      <change afterPath="$PROJECT_DIR$/views/dynamic.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/customerlogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/customerlogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/GroceryList.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/GroceryList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/queries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +46,6 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -48,9 +53,6 @@
         <option value="https://github.com/dele926/sustainablecommune.git" />
       </set>
     </option>
-  </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1pO1kGfWCOkD2tm9c70xOumkVmw" />
   <component name="ProjectViewState">
@@ -60,35 +62,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public" />
-      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public\demo" />
       <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public" />
       <recent name="C:\Users\maria\PycharmProjects\sustainablecommune" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\views" />
+      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -129,14 +115,28 @@
       <option name="project" value="LOCAL" />
       <updated>1615051867195</updated>
     </task>
-    <task id="LOCAL-00005" summary="Added Bootstrap tmeplate">
-      <created>1615056589254</created>
+    <task id="LOCAL-00005" summary="Added gitignore">
+      <created>1615053016062</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1615056589255</updated>
+      <updated>1615053016062</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added get/post requests to server.js (work in progress, looking at tutorial)">
+      <created>1615060420418</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615060420418</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Delete uneeded files">
+      <created>1615076017861</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615076017861</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,7 +150,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="maria" />
                       </list>
                     </value>
                   </entry>
@@ -167,42 +167,43 @@
     <MESSAGE value="Hello world" />
     <MESSAGE value="Add bootstrap template" />
     <MESSAGE value="Added Bootstrap tmeplate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Bootstrap tmeplate" />
+    <MESSAGE value="Added gitignore" />
+    <MESSAGE value="Added get/post requests to server.js (work in progress, looking at tutorial)" />
+    <MESSAGE value="Delete uneeded files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete uneeded files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="108" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615055070628">
-      <screen x="0" y="25" width="1440" height="804" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615040373029">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1615040373029" />
-    <state x="108" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.804@0.25.1440.804" timestamp="1615055070628" />
-    <state width="1059" height="196" key="GridCell.Tab.0.bottom" timestamp="1615055075976">
-      <screen x="0" y="25" width="1440" height="804" />
+    <state x="121" y="51" key="MergeDialog" timestamp="1615076372610">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1059" height="196" key="GridCell.Tab.0.bottom/0.25.1440.804@0.25.1440.804" timestamp="1615055075976" />
-    <state width="1059" height="196" key="GridCell.Tab.0.center" timestamp="1615055075975">
-      <screen x="0" y="25" width="1440" height="804" />
+    <state x="121" y="51" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1615076372610" />
+    <state x="280" y="102" key="MultipleFileMergeDialog" timestamp="1615076364151">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1059" height="196" key="GridCell.Tab.0.center/0.25.1440.804@0.25.1440.804" timestamp="1615055075975" />
-    <state width="1059" height="196" key="GridCell.Tab.0.left" timestamp="1615055075974">
-      <screen x="0" y="25" width="1440" height="804" />
+    <state x="280" y="102" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1615076364151" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1615056914465">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1059" height="196" key="GridCell.Tab.0.left/0.25.1440.804@0.25.1440.804" timestamp="1615055075974" />
-    <state width="1059" height="196" key="GridCell.Tab.0.right" timestamp="1615055075975">
-      <screen x="0" y="25" width="1440" height="804" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1615056914465" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615076024459">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1059" height="196" key="GridCell.Tab.0.right/0.25.1440.804@0.25.1440.804" timestamp="1615055075975" />
-    <state x="262" y="112" key="Vcs.Push.Dialog.v2" timestamp="1615056592550">
-      <screen x="0" y="25" width="1440" height="804" />
-    </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615051873805" />
-    <state x="262" y="112" key="Vcs.Push.Dialog.v2/0.25.1440.804@0.25.1440.804" timestamp="1615056592550" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615076024459" />
     <state x="427" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615051854261">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="427" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1280.680@0.0.1280.680" timestamp="1615051854261" />
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615052866794">
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615075866276">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1615052866794" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1615075866276" />
+    <state x="423" y="54" key="git4idea.branch.GitSmartOperationDialog" timestamp="1615076719474">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="423" y="54" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1615076719474" />
   </component>
 </project>

@@ -1,3 +1,5 @@
+<!--served from server.js-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,24 +11,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Tables</title>
+    <title>SB Admin 2 - Blank</title>
 
-    <!-- Custom fonts for this template -->
+    <!-- Custom fonts for this template-->
     <link href="demo/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for this template-->
     <link href="demo/css/sb-admin-2.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this page -->
-    <link href="demo/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-
-    <link href = "DropDown.css" rel="stylesheet">
-    <link href = "BasketButton.css" rel="stylesheet">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
@@ -108,13 +102,14 @@
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                    aria-expanded="true" aria-controls="collapsePages">
+            <li class="nav-item active">
+                <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true"
+                    aria-controls="collapsePages">
                     <i class="fas fa-fw fa-folder"></i>
                     <span>Pages</span>
                 </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                <div id="collapsePages" class="collapse show" aria-labelledby="headingPages"
+                    data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Login Screens:</h6>
                         <a class="collapse-item" href="login.html">Login</a>
@@ -123,7 +118,7 @@
                         <div class="collapse-divider"></div>
                         <h6 class="collapse-header">Other Pages:</h6>
                         <a class="collapse-item" href="404.html">404 Page</a>
-                        <a class="collapse-item" href="blank.html">Blank Page</a>
+                        <a class="collapse-item active" href="blank.html">Blank Page</a>
                     </div>
                 </div>
             </li>
@@ -136,7 +131,7 @@
             </li>
 
             <!-- Nav Item - Tables -->
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="tables.html">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Tables</span></a>
@@ -163,11 +158,9 @@
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
                     <!-- Sidebar Toggle (Topbar) -->
-                    <form class="form-inline">
-                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                            <i class="fa fa-bars"></i>
-                        </button>
-                    </form>
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
 
                     <!-- Topbar Search -->
                     <form
@@ -369,68 +362,12 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Tables</h1>
-                    <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-                        For more information about DataTables, please visit the <a target="_blank"
-                            href="https://datatables.net">official DataTables documentation</a>.</p>
+                    <h1><%- text %></h1>
 
-                    <!-- DataTales Example -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>Item</th>
-                                            <th>Merchant</th>
-                                            <th>Sustainability Points</th>
-                                            <th>Price</th>
-                                            <th>Quantity</th>
-                                        </tr>
-                                    </thead>
-                                    <tfoot>
-                                        <tr>
-                                            <th>Item</th>
-                                            <th>Merchant</th>
-                                            <th>Sustainability Points</th>
-                                            <th>Price</th>
-                                            <th>Quantity</th>
-                                        </tr>
-                                    </tfoot>
-                                    <tbody>
-                                        <tr>
-                                            <td>Carrots</td>
-                                            <td>Market 1</td>
-                                            <td>61</td>
-                                            <td>$100,000</td>
-                                            <td><!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
-                                                <div class="input-group plus-minus-input">
-                                                  <div class="input-group-button">
-                                                    <button type="button" class="button hollow circle" data-quantity="minus" data-field="quantity">
-                                                      <i class="fa fa-minus" aria-hidden="true"></i>
-                                                    </button>
-                                                  </div>
-                                                  <input class="input-group-field" type="number" name="quantity" value="0">
-                                                  <div class="input-group-button">
-                                                    <button type="button" class="button hollow circle" data-quantity="plus" data-field="quantity">
-                                                      <i class="fa fa-plus" aria-hidden="true"></i>
-                                                    </button>
-                                                  </div>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="block">Add to Basket</button>
                 </div>
-            </div>
+                <!-- /.container-fluid -->
 
+            </div>
             <!-- End of Main Content -->
 
             <!-- Footer -->
@@ -474,47 +411,8 @@
         </div>
     </div>
 
-    <script>
-    console.log("hello world");
-    jQuery(document).ready(function(){
-        // This button will increment the value
-        $('[data-quantity="plus"]').click(function(e){
-            // Stop acting like a button
-            e.preventDefault();
-            // Get the field name
-            fieldName = $(this).attr('data-field');
-            // Get its current value
-            var currentVal = parseInt($('input[name='+fieldName+']').val());
-            // If is not undefined
-            if (!isNaN(currentVal)) {
-                // Increment
-                $('input[name='+fieldName+']').val(currentVal + 1);
-            } else {
-                // Otherwise put a 0 there
-                $('input[name='+fieldName+']').val(0);
-            }
-        });
-        // This button will decrement the value till 0
-        $('[data-quantity="minus"]').click(function(e) {
-            // Stop acting like a button
-            e.preventDefault();
-            // Get the field name
-            fieldName = $(this).attr('data-field');
-            // Get its current value
-            var currentVal = parseInt($('input[name='+fieldName+']').val());
-            // If it isn't undefined or its greater than 0
-            if (!isNaN(currentVal) && currentVal > 0) {
-                // Decrement one
-                $('input[name='+fieldName+']').val(currentVal - 1);
-            } else {
-                // Otherwise put a 0 there
-                $('input[name='+fieldName+']').val(0);
-            }
-        });
-    });
+    <script>console.log("Hello World")</script>
 
-
-    </script>
     <!-- Bootstrap core JavaScript-->
     <script src="demo/vendor/jquery/jquery.min.js"></script>
     <script src="demo/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -525,14 +423,6 @@
     <!-- Custom scripts for all pages-->
     <script src="demo/js/sb-admin-2.min.js"></script>
 
-    <!-- Page level plugins -->
-    <script src="demo/vendor/datatables/jquery.dataTables.min.js"></script>
-    <script src="demo/vendor/datatables/dataTables.bootstrap4.min.js"></script>
-
-    <!-- Page level custom scripts -->
-    <script src="demo/js/demo/datatables-demo.js"></script>
-
-</script>
 </body>
 
 </html>

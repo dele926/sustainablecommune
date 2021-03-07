@@ -13,15 +13,30 @@ const pool = new Pool({
 });
 
 const getUsers = (request, response) => {
-  pool.query('select * from inventory', (error, results) => {
+  pool.query('SELECT * FROM inventory', (error, results) => {
     if (error) {
       throw error
     }
-    response.status(200).json(results.rows);
-    console.log(results.rows);
+    const text = JSON.stringify(results.rows[0]);
+    response.render(__dirname + "/views/dynamic", {text:text});
   })
 }
 
+/*async function selectFrom() {
+  try {
+    const res = await pool.query('SELECT * FROM inventory');
+    return res.rows[0][data];
+  } catch (err) {
+    return err.stack;
+  }
+}
+
+const getUsers = async (request, response) => {
+   var result = await selectFrom();
+   console.log(result);
+}*/
+
 module.exports = {
   getUsers,
+  pool,
 }
