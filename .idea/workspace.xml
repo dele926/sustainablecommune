@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Added checkout page">
+    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="modified checkout page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/checkout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615076181509</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="modified checkout page">
+      <created>1615080874663</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615080874663</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +157,7 @@
     <MESSAGE value="Add bootstrap template" />
     <MESSAGE value="Added Bootstrap tmeplate" />
     <MESSAGE value="Added checkout page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added checkout page" />
+    <MESSAGE value="modified checkout page" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified checkout page" />
   </component>
 </project>

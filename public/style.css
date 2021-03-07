@@ -92,11 +92,35 @@ footer {
   cursor: pointer;
 }
 
-.timeslot:focus {
+.timeslot: active {
   background-color:#1e5e53 ;
-  cursor: pointer;
 
 }
+
+button{
+background-color: #00c09d;
+  color: white;
+  padding:10px 20px;
+  margin: 5px;
+  outline: none
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  vertical-align: center;
+  text-align:center;
+ }
+
+button:active{
+    background:#00745e;
+}
+
+button:focus{
+    background:#00745e;
+}
+button:onclick{
+    background:#00745e;
+}
+
 
 .checkout-panel {
   display: flex;
