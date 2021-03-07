@@ -25,10 +25,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Added Bootstrap template">
+    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Added Bootstrap tmeplate">
+      <change afterPath="$PROJECT_DIR$/public/checkout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/demo/img/maxresdefault.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/demo/img/paypal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/demo/img/paypal1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/demo/img/visa_mastercard.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/demo/css/sb-admin-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/demo/css/sb-admin-2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/registeruser.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/registeruser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="glitch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,17 +65,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public\demo" />
-      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public" />
-      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public" />
       <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\views" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\giuli\PycharmProjects\sustainablecommune\public\demo\img" />
+      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public\demo" />
+      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune\public" />
+      <recent name="C:\Users\maria\PycharmProjects\sustainablecommune" />
+    </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -111,18 +115,8 @@
       <option name="project" value="LOCAL" />
       <updated>1615051867195</updated>
     </task>
-    <task id="LOCAL-00005" summary="Added Bootstrap template">
-      <created>1615056611478</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1615056611478</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -135,7 +129,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="checkout" />
                       </list>
                     </value>
                   </entry>
@@ -152,25 +146,6 @@
     <MESSAGE value="Hello world" />
     <MESSAGE value="Add bootstrap template" />
     <MESSAGE value="Added Bootstrap tmeplate" />
-    <MESSAGE value="Added Bootstrap template" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Bootstrap template" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615040373029">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1615040373029" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615051873805">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615051873805" />
-    <state x="427" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615051854261">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="427" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1280.680@0.0.1280.680" timestamp="1615051854261" />
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615052866794">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1615052866794" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Bootstrap tmeplate" />
   </component>
 </project>
