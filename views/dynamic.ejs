@@ -9,16 +9,19 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Choose Your Groceries</title>
+    <title>Whole Foods</title>
 
     <!-- Custom fonts for this template -->
+    <!-- Custom fonts for this template-->
     <link href="demo/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="demo/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="demo/css/sb-admin-2.css" rel="stylesheet">
 
     <!-- Custom styles for this page -->
     <link href="demo/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
@@ -41,7 +44,7 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="homepage.html">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                    <span class="material-icons">grass</span>
                 </div>
                 <div class="sidebar-brand-text mx-3">Ada Lovelace</div>
             </a>
@@ -58,11 +61,11 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner">
-                        <a class="collapse-item" href="buttons.html">Fresh fruit</a>
-                        <a class="collapse-item" href="cards.html">Fresh vegetables</a>
-                        <a class="collapse-item" href="cards.html">Fresh meat & poultry</a>
-                        <a class="collapse-item" href="cards.html">Noodles, rice & pasta</a>
-                        <a class="collapse-item" href="cards.html">Cereal</a>
+                        <a class="collapse-item" href="">Fresh fruit</a>
+                        <a class="collapse-item" href="">Fresh vegetables</a>
+                        <a class="collapse-item" href="">Fresh meat & poultry</a>
+                        <a class="collapse-item" href="">Noodles, rice & pasta</a>
+                        <a class="collapse-item" href="">Cereal</a>
                     </div>
                 </div>
             </li>
@@ -96,6 +99,26 @@
                 <a class="nav-link" href="inventory">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Zero waste</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Scoreboards
+            </div>
+
+            <li class="nav-item">
+                <a class="nav-link" href="scoreTable.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Individual Rankings</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="hallScores.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Hall Rankings</span></a>
             </li>
 
             <!-- Divider -->
@@ -276,9 +299,8 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Groceries</h1>
-                    <p class="mb-4">Select the items you would like to by from this merchant.</p>
-
+                    <h1 class="h3 mb-2 text-gray-800">Whole Foods</h1>
+                    <p class="mb-4">Living well begins with eating well. That's why we ban hydrogenated fats, high-fructose corn syrup, artificial sweeteners and more than 100 flavours, colours and preservatives commonly found in food. If you want to know what goes into the products you buy, our standards make it easy, because if it doesn't meet the standards, we won't sell it.</p>
 
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
@@ -312,13 +334,13 @@
                                                 <td>
                                                     <div class="input-group plus-minus-input">
                                                       <div class="input-group-button">
-                                                        <button type="button" class="button hollow circle" data-quantity="minus" data-field="num.toString(<%= item.produceId %>)">
+                                                        <button type="button" class="button hollow circle" data-quantity="minus" data-field= <%= item.produceId %> >
                                                           <i class="fa fa-minus" aria-hidden="true"></i>
                                                         </button>
                                                       </div>
-                                                      <input class="input-group-field" type="number" name="num.toString(<%= item.produceId %>)" value="0">
+                                                      <input class="input-group-field" type="number" name= <%= item.produceId %> value="0">
                                                       <div class="input-group-button">
-                                                        <button type="button" class="button hollow circle" data-quantity="plus" data-field="num.toString(<%= item.produceId %>)">
+                                                        <button type="button" class="button hollow circle" data-quantity="plus" data-field= <%= item.produceId %> >
                                                           <i class="fa fa-plus" aria-hidden="true"></i>
                                                         </button>
                                                       </div>
