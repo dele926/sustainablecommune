@@ -20,20 +20,16 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:maria" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Delete uneeded files">
-      <change afterPath="$PROJECT_DIR$/views/dynamic.ejs" afterDir="false" />
+    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="adding new stores">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/GroceryList.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/GroceryList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/queries.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/dynamic.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dynamic.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +42,7 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -60,6 +57,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
@@ -177,14 +175,16 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1615040373029" />
-    <state x="121" y="51" key="MergeDialog" timestamp="1615076372610">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="136" y="85" key="MergeDialog" timestamp="1615079873394">
+      <screen x="0" y="25" width="1440" height="801" />
     </state>
     <state x="121" y="51" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1615076372610" />
-    <state x="280" y="102" key="MultipleFileMergeDialog" timestamp="1615076364151">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="136" y="85" key="MergeDialog/0.25.1440.801@0.25.1440.801" timestamp="1615079873394" />
+    <state x="436" y="140" key="MultipleFileMergeDialog" timestamp="1615079877510">
+      <screen x="0" y="25" width="1440" height="801" />
     </state>
     <state x="280" y="102" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1615076364151" />
+    <state x="436" y="140" key="MultipleFileMergeDialog/0.25.1440.801@0.25.1440.801" timestamp="1615079877510" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1615056914465">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -201,9 +201,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1615075866276" />
-    <state x="423" y="54" key="git4idea.branch.GitSmartOperationDialog" timestamp="1615076719474">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="476" y="89" key="git4idea.branch.GitSmartOperationDialog" timestamp="1615079746976">
+      <screen x="0" y="25" width="1440" height="801" />
     </state>
     <state x="423" y="54" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1615076719474" />
+    <state x="476" y="89" key="git4idea.branch.GitSmartOperationDialog/0.25.1440.801@0.25.1440.801" timestamp="1615079746976" />
   </component>
 </project>
