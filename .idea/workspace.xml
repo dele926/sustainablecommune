@@ -25,7 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Shopping basket changes">
+    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Deleted pages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/BasketButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/BasketButton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/DropDown.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/DropDown.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/dynamic.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dynamic.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615116376402</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Deleted pages">
+      <created>1615116700839</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1615116700839</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -217,6 +227,7 @@
     <MESSAGE value="Register user page" />
     <MESSAGE value="ECOmmunity!" />
     <MESSAGE value="Shopping basket changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shopping basket changes" />
+    <MESSAGE value="Deleted pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted pages" />
   </component>
 </project>

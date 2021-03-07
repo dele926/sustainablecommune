@@ -9,7 +9,7 @@
   text-align: center;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  padding: 1rem;
+  padding: 0.7rem;
 }
 
 .plus-minus-input .input-group-field::-webkit-inner-spin-button,
@@ -20,6 +20,6 @@
 
 .plus-minus-input .input-group-button .circle {
   border-radius: 50%;
-  padding: 0.25em 0.8em;
+  padding: 0.15em 0.5em;
 }
 
