@@ -26,9 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Homepage stores">
+      <change afterPath="$PROJECT_DIR$/public/paymentconfirmed.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/demo/img/undraw_profile_3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/demo/img/undraw_profile_3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/demo/css/sb-admin-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/demo/css/sb-admin-2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
