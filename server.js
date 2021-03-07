@@ -49,7 +49,7 @@ app.get("/inventory", (request, response) => {
       throw error
     }
     console.log(results.rows)
-    response.render(__dirname + "/homepage.html", {items:results.rows});
+    response.render(__dirname + "/views/dynamic", {items:results.rows});
   })
 });
 
