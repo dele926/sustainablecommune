@@ -88,8 +88,14 @@ footer {
 
 
 .timeslot:hover {
-  background-color: #2CA893;
+  background-color: #1e5e53;
   cursor: pointer;
+}
+
+.timeslot:focus {
+  background-color:#1e5e53 ;
+  cursor: pointer;
+
 }
 
 .checkout-panel {
@@ -205,7 +211,34 @@ input[type='password']:focus {
   width: 100%;
   height: 96px;
   padding: 0 80px;
-  background-color: rgb(239, 239, 239);
+  background-color: rgb(14, 181, 143);
   justify-content: space-between;
   align-items: center;
 }
+.btn {
+  font-size: 16px;
+  width: 163px;
+  height: 48px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 23px;
+}
+
+.back-btn {
+  color: #0eb58f;
+  background: #fff;
+}
+
+.next-btn {
+  color: #fff;
+  background: #0eb58f;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  transfo
