@@ -17,6 +17,7 @@ h1 {
   line-height: 5;
 }
 
+
 form {
   background-color: #eee;
   display: grid;
@@ -76,7 +77,7 @@ footer {
 
 
 button{
-background-color: #00c09d;
+background-color: #91b268;
   color: white;
   padding:10px 20px;
   margin: 5px;
@@ -89,15 +90,18 @@ background-color: #00c09d;
  }
 
 button:active{
-    background-color:#00745e;
+    background-color:#607a3e;
+    border:none;
     style: inset;
 }
 
 button:focus{
-    background:#00745e;
+    background:#607a3e;
+    border:none;
 }
 button:onclick{
-    background:#00745e;
+    background:#607a3e;
+    border:none;
 }
 
 
