@@ -1,1 +1,3 @@
-function calculateTotal
+function calculateTotal(){
+
+}
