@@ -20,14 +20,35 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Correcting server.js &quot;views/dynamic&quot; intsead of homepage.html">
+    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Serving from homepage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/express.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/express.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/middleware/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/middleware/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/response.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/response.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/router/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/router/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/router/route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/.bin/mime" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/.bin/mime.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/.bin/mime.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/GroceryList.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/GroceryList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/merchantstables.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/merchantstables.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/dynamic.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dynamic.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,10 +59,9 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="maria" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -56,7 +76,6 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
@@ -133,44 +152,29 @@
       <option name="project" value="LOCAL" />
       <updated>1615076017861</updated>
     </task>
-    <task id="LOCAL-00008" summary="Correcting server.js &quot;views/dynamic&quot; intsead of homepage.html">
-      <created>1615083310395</created>
+    <task id="LOCAL-00008" summary="Serving dynamic files to inventory">
+      <created>1615078196635</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1615083310395</updated>
+      <updated>1615078196635</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Serving from homepage">
+      <created>1615080083112</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615080083112</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -184,75 +188,42 @@
     <MESSAGE value="Added gitignore" />
     <MESSAGE value="Added get/post requests to server.js (work in progress, looking at tutorial)" />
     <MESSAGE value="Delete uneeded files" />
-    <MESSAGE value="Correcting server.js &quot;views/dynamic&quot; intsead of homepage.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correcting server.js &quot;views/dynamic&quot; intsead of homepage.html" />
+    <MESSAGE value="Serving dynamic files to inventory" />
+    <MESSAGE value="Serving from homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Serving from homepage" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="313" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615083107185">
-      <screen x="0" y="25" width="1440" height="801" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615040373029">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1615040373029" />
-    <state x="313" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.801@0.25.1440.801" timestamp="1615083107185" />
-    <state x="86" y="41" width="1152" height="640" key="DiffContextDialog" timestamp="1615083258629">
-      <screen x="0" y="25" width="1440" height="801" />
+    <state x="121" y="51" key="MergeDialog" timestamp="1615103611056">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="86" y="41" width="1152" height="640" key="DiffContextDialog/0.25.1440.801@0.25.1440.801" timestamp="1615083258629" />
-    <state width="617" height="196" key="GridCell.Tab.0.bottom" timestamp="1615082691084">
-      <screen x="0" y="25" width="1440" height="801" />
+    <state x="121" y="51" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1615103611056" />
+    <state x="280" y="102" key="MultipleFileMergeDialog" timestamp="1615078297146">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="617" height="196" key="GridCell.Tab.0.bottom/0.25.1440.801@0.25.1440.801" timestamp="1615082691084" />
-    <state width="617" height="196" key="GridCell.Tab.0.center" timestamp="1615082691083">
-      <screen x="0" y="25" width="1440" height="801" />
-    </state>
-    <state width="617" height="196" key="GridCell.Tab.0.center/0.25.1440.801@0.25.1440.801" timestamp="1615082691083" />
-    <state width="617" height="196" key="GridCell.Tab.0.left" timestamp="1615082691082">
-      <screen x="0" y="25" width="1440" height="801" />
-    </state>
-    <state width="617" height="196" key="GridCell.Tab.0.left/0.25.1440.801@0.25.1440.801" timestamp="1615082691082" />
-    <state width="617" height="196" key="GridCell.Tab.0.right" timestamp="1615082691083">
-      <screen x="0" y="25" width="1440" height="801" />
-    </state>
-    <state width="617" height="196" key="GridCell.Tab.0.right/0.25.1440.801@0.25.1440.801" timestamp="1615082691083" />
-    <state x="136" y="85" key="MergeDialog" timestamp="1615079873394">
-      <screen x="0" y="25" width="1440" height="801" />
-    </state>
-    <state x="121" y="51" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1615076372610" />
-    <state x="136" y="85" key="MergeDialog/0.25.1440.801@0.25.1440.801" timestamp="1615079873394" />
-    <state x="436" y="140" key="MultipleFileMergeDialog" timestamp="1615079877510">
-      <screen x="0" y="25" width="1440" height="801" />
-    </state>
-    <state x="280" y="102" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1615076364151" />
-    <state x="436" y="140" key="MultipleFileMergeDialog/0.25.1440.801@0.25.1440.801" timestamp="1615079877510" />
-    <state x="502" y="134" key="RollbackChangesDialog" timestamp="1615083135569">
-      <screen x="0" y="25" width="1440" height="801" />
-    </state>
-    <state x="502" y="134" key="RollbackChangesDialog/0.25.1440.801@0.25.1440.801" timestamp="1615083135569" />
+    <state x="280" y="102" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1615078297146" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1615056914465">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1615056914465" />
-    <state x="76" y="65" width="1076" height="569" key="ShowDiffWithBranchDialog" timestamp="1615082938517">
-      <screen x="0" y="25" width="1440" height="801" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615080088085">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="76" y="65" width="1076" height="569" key="ShowDiffWithBranchDialog/0.25.1440.801@0.25.1440.801" timestamp="1615082938517" />
-    <state x="443" y="43" width="692" height="637" key="Vcs.Push.Dialog.v2" timestamp="1615083313553">
-      <screen x="0" y="25" width="1440" height="801" />
-    </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615076024459" />
-    <state x="443" y="43" width="692" height="637" key="Vcs.Push.Dialog.v2/0.25.1440.801@0.25.1440.801" timestamp="1615083313553" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615080088085" />
     <state x="427" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615051854261">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="427" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1280.680@0.0.1280.680" timestamp="1615051854261" />
-    <state x="506" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615083318989">
-      <screen x="0" y="25" width="1440" height="801" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615103622782">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1615075866276" />
-    <state x="506" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.801@0.25.1440.801" timestamp="1615083318989" />
-    <state x="476" y="89" key="git4idea.branch.GitSmartOperationDialog" timestamp="1615079746976">
-      <screen x="0" y="25" width="1440" height="801" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1615103622782" />
+    <state x="423" y="54" key="git4idea.branch.GitSmartOperationDialog" timestamp="1615078262710">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="423" y="54" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1615076719474" />
-    <state x="476" y="89" key="git4idea.branch.GitSmartOperationDialog/0.25.1440.801@0.25.1440.801" timestamp="1615079746976" />
+    <state x="423" y="54" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1615078262710" />
   </component>
 </project>
