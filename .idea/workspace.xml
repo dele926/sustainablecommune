@@ -25,9 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="adding new stores">
+    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Correcting server.js &quot;views/dynamic&quot; intsead of homepage.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/dynamic.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dynamic.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615076017861</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Correcting server.js &quot;views/dynamic&quot; intsead of homepage.html">
+      <created>1615083310395</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615083310395</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -176,7 +184,8 @@
     <MESSAGE value="Added gitignore" />
     <MESSAGE value="Added get/post requests to server.js (work in progress, looking at tutorial)" />
     <MESSAGE value="Delete uneeded files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete uneeded files" />
+    <MESSAGE value="Correcting server.js &quot;views/dynamic&quot; intsead of homepage.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correcting server.js &quot;views/dynamic&quot; intsead of homepage.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615083107185">
@@ -226,20 +235,20 @@
       <screen x="0" y="25" width="1440" height="801" />
     </state>
     <state x="76" y="65" width="1076" height="569" key="ShowDiffWithBranchDialog/0.25.1440.801@0.25.1440.801" timestamp="1615082938517" />
-    <state x="443" y="43" width="692" height="637" key="Vcs.Push.Dialog.v2" timestamp="1615082950662">
+    <state x="443" y="43" width="692" height="637" key="Vcs.Push.Dialog.v2" timestamp="1615083313553">
       <screen x="0" y="25" width="1440" height="801" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615076024459" />
-    <state x="443" y="43" width="692" height="637" key="Vcs.Push.Dialog.v2/0.25.1440.801@0.25.1440.801" timestamp="1615082950662" />
+    <state x="443" y="43" width="692" height="637" key="Vcs.Push.Dialog.v2/0.25.1440.801@0.25.1440.801" timestamp="1615083313553" />
     <state x="427" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615051854261">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="427" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1280.680@0.0.1280.680" timestamp="1615051854261" />
-    <state x="506" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615083090631">
+    <state x="506" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615083318989">
       <screen x="0" y="25" width="1440" height="801" />
     </state>
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1615075866276" />
-    <state x="506" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.801@0.25.1440.801" timestamp="1615083090631" />
+    <state x="506" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.801@0.25.1440.801" timestamp="1615083318989" />
     <state x="476" y="89" key="git4idea.branch.GitSmartOperationDialog" timestamp="1615079746976">
       <screen x="0" y="25" width="1440" height="801" />
     </state>
