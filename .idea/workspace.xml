@@ -25,12 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Register user page">
-      <change beforePath="$PROJECT_DIR$/public/customerlogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/customerlogin.html" afterDir="false" />
+    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="ECOmmunity!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/hallScores.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/hallScores.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/paymentconfirmed.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/paymentconfirmed.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/scoreTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/scoreTable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/dynamic.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dynamic.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615107762122</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ECOmmunity!">
+      <created>1615114051606</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615114051606</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -191,41 +197,7 @@
     <MESSAGE value="Serving from homepage" />
     <MESSAGE value="Colour scheme" />
     <MESSAGE value="Register user page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Register user page" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615040373029">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1615040373029" />
-    <state x="136" y="85" key="MergeDialog" timestamp="1615112952657">
-      <screen x="0" y="25" width="1440" height="804" />
-    </state>
-    <state x="121" y="51" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1615103611056" />
-    <state x="136" y="85" key="MergeDialog/0.25.1440.804@0.25.1440.804" timestamp="1615112952657" />
-    <state x="280" y="102" key="MultipleFileMergeDialog" timestamp="1615078297146">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="280" y="102" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1615078297146" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1615056914465">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1615056914465" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615080088085">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615080088085" />
-    <state x="427" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615051854261">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="427" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1280.680@0.0.1280.680" timestamp="1615051854261" />
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615103622782">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1615103622782" />
-    <state x="423" y="54" key="git4idea.branch.GitSmartOperationDialog" timestamp="1615078262710">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="423" y="54" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1615078262710" />
+    <MESSAGE value="ECOmmunity!" />
+    <option name="LAST_COMMIT_MESSAGE" value="ECOmmunity!" />
   </component>
 </project>
