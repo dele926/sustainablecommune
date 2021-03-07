@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #858796;
   --gray-dark: #5a5c69;
-  --primary: #4e73df;
+  --primary: #91b268;
   --secondary: #858796;
   --success: #1cc88a;
   --info: #36b9cc;
@@ -2348,14 +2348,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #4e73df;
-  border-color: #4e73df;
+  background-color: #91b268;
+  border-color: #91b268;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #2e59d9;
-  border-color: #2653d4;
+  background-color: #b2c995;
+  border-color: #b2c995;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2643,14 +2643,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #4e73df;
-  border-color: #4e73df;
+  color: #91b268;
+  border-color: #91b268;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #4e73df;
-  border-color: #4e73df;
+  background-color: #91b268;
+  border-color: #91b268;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -6374,7 +6374,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #4e73df !important;
+  background-color: #91B268 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6424,7 +6424,7 @@ button.bg-warning:focus {
 }
 
 .bg-danger {
-  background-color: #e74a3b !important;
+  background-color: #91b268 !important;
 }
 
 a.bg-danger:hover, a.bg-danger:focus,
@@ -6502,7 +6502,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #4e73df !important;
+  border-color: #91B268 !important;
 }
 
 .border-secondary {
@@ -9555,7 +9555,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #4e73df !important;
+  color: #91B268 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9863,8 +9863,8 @@ a:focus {
 }
 
 .bg-gradient-primary {
-  background-color: #4e73df;
-  background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+  background-color: #91B268;
+  background-image: linear-gradient(180deg, #91b268 10%, #91b268 100%);
   background-size: cover;
 }
 
@@ -10198,8 +10198,8 @@ background-color: #91B268
 }
 
 .topbar .dropdown-list .dropdown-header {
-  background-color: #4e73df;
-  border: 1px solid #4e73df;
+  background-color: #91b268;
+  border: 1px solid #91b268;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   color: #fff;
@@ -10828,7 +10828,7 @@ background-color: #91B268
 }
 
 .bg-login-image {
-  background: url("https://source.unsplash.com/K4mSJ7kc0As/600x800");
+  background: url("https://source.unsplash.com/ocnsb17U6FE/600x800");
   background-position: center;
   background-size: cover;
 }

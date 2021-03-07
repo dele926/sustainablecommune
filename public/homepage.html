@@ -35,7 +35,7 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="homepage.html">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                    <span class="material-icons">grass</span>
                 </div>
                 <div class="sidebar-brand-text mx-3">Ada Lovelace</div>
             </a>
@@ -52,18 +52,18 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner">
-                        <a class="collapse-item" href="buttons.html">Fresh fruit</a>
-                        <a class="collapse-item" href="cards.html">Fresh vegetables</a>
-                        <a class="collapse-item" href="cards.html">Fresh meat & poultry</a>
-                        <a class="collapse-item" href="cards.html">Noodles, rice & pasta</a>
-                        <a class="collapse-item" href="cards.html">Cereal</a>
+                        <a class="collapse-item" href="">Fresh fruit</a>
+                        <a class="collapse-item" href="">Fresh vegetables</a>
+                        <a class="collapse-item" href="">Fresh meat & poultry</a>
+                        <a class="collapse-item" href="">Noodles, rice & pasta</a>
+                        <a class="collapse-item" href="">Cereal</a>
                     </div>
                 </div>
             </li>
 
             <!-- Nav Item - Stores Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+                <a class="nav-link collapsed" href="homepage.html" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="material-icons">store</i>
                     <span>Shop by Store</span>
@@ -90,6 +90,26 @@
                 <a class="nav-link" href="inventory">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Zero waste</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Scoreboards
+            </div>
+
+            <li class="nav-item">
+                <a class="nav-link" href="scoreTable.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Individual Rankings</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="hallScores.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Hall Rankings</span></a>
             </li>
 
             <!-- Divider -->
@@ -188,7 +208,7 @@
                                     </div>
                                     <div class="font-weight-bold">
                                         <div class="text-truncate">Product 1</div>
-                                        <div class="small text-gray-500">Shop A</div>
+                                        <div class="small text-gray-500">Whole Foods</div>
                                     </div>
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
@@ -199,7 +219,7 @@
                                     </div>
                                     <div>
                                         <div class="text-truncate">Product 2</div>
-                                        <div class="small text-gray-500">Shop B</div>
+                                        <div class="small text-gray-500">Whole Foods</div>
                                     </div>
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
@@ -210,7 +230,7 @@
                                     </div>
                                     <div>
                                         <div class="text-truncate">Product 3</div>
-                                        <div class="small text-gray-500">Shop C</div>
+                                        <div class="small text-gray-500">Planet Organic</div>
                                     </div>
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
@@ -221,7 +241,7 @@
                                     </div>
                                     <div>
                                         <div class="text-truncate">Product 4</div>
-                                        <div class="small text-gray-500">Shop D</div>
+                                        <div class="small text-gray-500">Planet Organic</div>
                                     </div>
                                 </a>
                                 <a class="dropdown-item text-center small text-gray-500" href="#">See all items</a>
@@ -283,15 +303,19 @@
                             <div class="card border-left-success h-100 py-1">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
-                                        <div class="col-12 mr-2">
+                                        <div class="col-7 mr-2">
                                             <a href="inventory">
                                             <div class="h5 font-weight-bold text-success text-uppercase mb-1">
                                                 Whole Foods</div>
                                             </a>
-                                            <div class="h6 mb-0 font-weight-bold text-gray-800 mb-1"># Organic</div>
+                                            <div class="h6 mb-0 font-weight-bold text-gray-800 mb-2"># Organic</div>
                                             <div class="h6 mb-0 font-weight-bold text-gray-800 mb-2"># High-End</div>
-                                            <div class="h6 mb-0 font-weight-bold text-gray-800 mb-3"># Fully Stocked</div>
-                                            <div class="text-xs font-weight-bold mb-1">1.2km away</div>
+                                            <div class="h6 mb-0 font-weight-bold text-gray-800 mb-2"># Fully Stocked</div>
+                                            <div class="text-xs font-weight-bold mb-2">1.2km away</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <img src="https://source.unsplash.com/stpjHJGqZyw/90x90"
+                                            alt="" align="center">
                                         </div>
                                     </div>
                                 </div>
@@ -303,14 +327,18 @@
                             <div class="card border-left-info h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
-                                        <div class="col-12 mr-2">
+                                        <div class="col-7 mr-2">
                                             <a href="inventory">
                                             <div class="h5 font-weight-bold text-info text-uppercase mb-1">
                                                 Planet Organic</div>
                                             </a>
-                                            <div class="h6 mb-0 font-weight-bold text-gray-800 mb-1"># Organic</div>
-                                            <div class="h6 mb-0 font-weight-bold text-gray-800 mb-4"># Boutique Grocer</div>
-                                            <div class="text-xs font-weight-bold mb-1">0.5km away</div>
+                                            <div class="h6 mb-0 font-weight-bold text-gray-800 mb-2"># Organic</div>
+                                            <div class="h6 mb-0 font-weight-bold text-gray-800 mb-2"># Boutique Grocer</div>
+                                            <div class="text-xs font-weight-bold mb-2">0.5km away</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <img src="https://source.unsplash.com/ZpIskW1Tuvc/90x90"
+                                            alt="" align="center">
                                         </div>
                                     </div>
                                 </div>
@@ -327,10 +355,10 @@
                                             <div class="h5 font-weight-bold text-warning text-uppercase mb-1">
                                                 Roseangela Grocery</div>
                                             </a>
-                                            <div class="h6 mb-0 font-weight-bold text-gray-800 mb-1"># Fairtrade</div>
+                                            <div class="h6 mb-0 font-weight-bold text-gray-800 mb-2"># Fairtrade</div>
                                             <div class="h6 mb-0 font-weight-bold text-gray-800 mb-2"># Locally Sourced</div>
-                                            <div class="h6 mb-0 font-weight-bold text-gray-800 mb-3"># Boutique Grocers</div>
-                                        <div class="text-xs font-weight-bold mb-1">0.8km away</div>
+                                            <div class="h6 mb-0 font-weight-bold text-gray-800 mb-2"># Boutique Grocers</div>
+                                        <div class="text-xs font-weight-bold mb-2">0.8km away</div>
                                         </div>
                                     </div>
                                 </div>
@@ -340,7 +368,7 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-green-800">Offers this week</h1>
+                        <h1 class="h3 mb-0 text-green-900">Offers this week</h1>
                         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-outline-primary"> See all offers</a>
                     </div>
 
@@ -432,6 +460,11 @@
                         </div>
                     </div>
 
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Orders & deliveries</h1>
+                    </div>
+
                     <!-- Content Row -->
 
                     <div class="row">
@@ -451,8 +484,8 @@
                                         <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                                             aria-labelledby="dropdownMenuLink">
                                             <div class="dropdown-header">Group points by:</div>
-                                            <a class="dropdown-item" href="#">Residence halls</a>
-                                            <a class="dropdown-item" href="#">University</a>
+                                            <a class="dropdown-item" href="hallScores.html">Residence halls</a>
+                                            <a class="dropdown-item" href="scoreTable.html">Individual</a>
                                         </div>
                                     </div>
                                 </div>
