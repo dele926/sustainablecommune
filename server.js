@@ -48,7 +48,6 @@ app.get("/inventory", (request, response) => {
     if (error) {
       throw error
     }
-    console.log(results.rows)
     response.render(__dirname + "/views/dynamic", {items:results.rows});
   })
 });

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Choose Your Groceries</title>
+    <title>Halls Score Table</title>
 
     <!-- Custom fonts for this template -->
     <link href="demo/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -22,11 +22,6 @@
 
     <!-- Custom styles for this page -->
     <link href="demo/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-
-    <link href = "DropDown.css" rel="stylesheet">
-    <link href = "BasketButton.css" rel="stylesheet">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
@@ -298,66 +293,90 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Groceries</h1>
-                    <p class="mb-4">Select the items you would like to by from this merchant.</p>
+                    <h1 class="h3 mb-2 text-gray-800">Top Halls</h1>
+                    <p class="mb-4">See how your student halls compares to the rest of your uni, and keep shopping in bulk to earn more sustainability points!</p>
 
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Stock</h6>
-                        </div>
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th>Item</th>
-                                            <th>Sustainability Points</th>
-                                            <th>Price</th>
-                                            <th>Stock</th>
-                                            <th>Quantity</th>
+                                            <th>Place</th>
+                                            <th>Halls</th>
+                                            <th>Points</th>
+                                            <th>Students</th>
+                                            <th>Rewards</th>
                                         </tr>
                                     </thead>
-                                    <tfoot>
-                                        <tr>
-                                            <th>Total Price</th>
-                                        </tr>
-                                    </tfoot>
                                     <tbody>
-                                        <% items.forEach(function(item) { %>
-                                            <tr>
-                                                <td><%= item.display_name %></td>
-                                                <td> 61 </td> <
-                                                <td><%= item.price %></td>
-                                                <td><%= item.stock %></td>
-                                                <td>
-                                                    <div class="input-group plus-minus-input">
-                                                      <div class="input-group-button">
-                                                        <button type="button" class="button hollow circle" data-quantity="minus" data-field= <%= item.produceId %> >
-                                                          <i class="fa fa-minus" aria-hidden="true"></i>
-                                                        </button>
-                                                      </div>
-                                                      <input class="input-group-field" type="number" name= <%= item.produceId %> value="0">
-                                                      <div class="input-group-button">
-                                                        <button type="button" class="button hollow circle" data-quantity="plus" data-field= <%= item.produceId %> >
-                                                          <i class="fa fa-plus" aria-hidden="true"></i>
-                                                        </button>
-                                                      </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        <% }); %>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Beit Hall</td>
+                                            <td>89760</td>
+                                            <td>190</td>
+                                            <td>3 Fresh fruit deliveries</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Kemp Porter Buildings</td>
+                                            <td>88650</td>
+                                            <td>312</td>
+                                            <td>2 Fresh fruit deliveries</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Estside Halls</td>
+                                            <td>82294</td>
+                                            <td>206</td>
+                                            <td>Fresh fruit delivery</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>Woodward Buildings</td>
+                                            <td>70938</td>
+                                            <td>398</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>Wilson House</td>
+                                            <td>68983</td>
+                                            <td>281</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td>Xenia</td>
+                                            <td>66099</td>
+                                            <td>109</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td>Southside Halls</td>
+                                            <td>56809</td>
+                                            <td>198</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>8</td>
+                                            <td>Putney Boathouse</td>
+                                            <td>1467</td>
+                                            <td>12</td>
+                                            <td></td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                     </div>
-                    <a href = "checkout.html">
-                    <button class="block">Add to Basket</button>
-                    </a>
-                </div>
-            </div>
 
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
             <!-- End of Main Content -->
 
             <!-- Footer -->
@@ -401,46 +420,6 @@
         </div>
     </div>
 
-    <script>
-    jQuery(document).ready(function(){
-        // This button will increment the value
-        $('[data-quantity="plus"]').click(function(e){
-            // Stop acting like a button
-            e.preventDefault();
-            // Get the field name
-            fieldName = $(this).attr('data-field');
-            // Get its current value
-            var currentVal = parseInt($('input[name='+fieldName+']').val());
-            // If is not undefined
-            if (!isNaN(currentVal)) {
-                // Increment
-                $('input[name='+fieldName+']').val(currentVal + 1);
-            } else {
-                // Otherwise put a 0 there
-                $('input[name='+fieldName+']').val(0);
-            }
-        });
-        // This button will decrement the value till 0
-        $('[data-quantity="minus"]').click(function(e) {
-            // Stop acting like a button
-            e.preventDefault();
-            // Get the field name
-            fieldName = $(this).attr('data-field');
-            // Get its current value
-            var currentVal = parseInt($('input[name='+fieldName+']').val());
-            // If it isn't undefined or its greater than 0
-            if (!isNaN(currentVal) && currentVal > 0) {
-                // Decrement one
-                $('input[name='+fieldName+']').val(currentVal - 1);
-            } else {
-                // Otherwise put a 0 there
-                $('input[name='+fieldName+']').val(0);
-            }
-        });
-    });
-
-
-    </script>
     <!-- Bootstrap core JavaScript-->
     <script src="demo/vendor/jquery/jquery.min.js"></script>
     <script src="demo/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
