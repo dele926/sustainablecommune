@@ -26,8 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Serving from homepage">
-      <change afterPath="$PROJECT_DIR$/public/scoreTable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/hallScores.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/GroceryList.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/GroceryList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scoreTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/scoreTable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/dynamic.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dynamic.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615104564702</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add score table page">
+      <created>1615107313584</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615107313584</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +216,8 @@
     <MESSAGE value="Add sidebar and top bar to all pages" />
     <MESSAGE value="Changed sidebar routing" />
     <MESSAGE value="Change dynamic.ejs table text" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change dynamic.ejs table text" />
+    <MESSAGE value="Add score table page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add score table page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615040373029">
@@ -223,18 +236,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1615056914465" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615104569229">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615107319426">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615104569229" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615107319426" />
     <state x="427" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615051854261">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="427" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1280.680@0.0.1280.680" timestamp="1615051854261" />
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615104135587">
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615107326860">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1615104135587" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1615107326860" />
     <state x="423" y="54" key="git4idea.branch.GitSmartOperationDialog" timestamp="1615078262710">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
