@@ -39,3 +39,9 @@ fetch("/dreams")
       dreamsForm.elements.dream.focus();
     });
   });
+
+//confirm payment
+$(window).on("load",function(){
+	setTimeout(function(){$('.done').addClass("drawn");},500)
+});
+
