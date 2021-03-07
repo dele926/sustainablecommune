@@ -24,11 +24,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Serving from homepage">
+    <list default="true" id="70259a45-465b-401e-abc4-909a97aa88b2" name="Default Changelist" comment="Register user page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/demo/css/sb-admin-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/demo/css/sb-admin-2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/demo/js/demo/chart-area-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/demo/js/demo/chart-area-demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/paymentconfirmed.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/paymentconfirmed.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615080083112</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Colour scheme">
+      <created>1615107516130</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615107516130</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Register user page">
+      <created>1615107762122</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615107762122</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -173,7 +185,9 @@
     <MESSAGE value="Delete uneeded files" />
     <MESSAGE value="Serving dynamic files to inventory" />
     <MESSAGE value="Serving from homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Serving from homepage" />
+    <MESSAGE value="Colour scheme" />
+    <MESSAGE value="Register user page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Register user page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615040373029">
