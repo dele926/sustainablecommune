@@ -57,6 +57,7 @@ footer {
 
 .days {
   width: 1000px;
+  margin-left:250px
 }
 
 .day {
@@ -73,29 +74,6 @@ footer {
   margin-bottom: 15px;
 }
 
-.timeslot {
-  background-color: #00c09d;
-  width: auto;
-  height: 30px;
-  color: white;
-  padding:7px;
-  margin-top: 5px;
-  font-size: 14px;
-  border-radius: 3px;
-  vertical-align: center;
-  text-align:center;
-}
-
-
-.timeslot:hover {
-  background-color: #1e5e53;
-  cursor: pointer;
-}
-
-.timeslot: active {
-  background-color:#1e5e53 ;
-
-}
 
 button{
 background-color: #00c09d;
@@ -105,13 +83,14 @@ background-color: #00c09d;
   outline: none
   font-size: 14px;
   border-radius: 5px;
-  border: none;
+  border: white;
   vertical-align: center;
   text-align:center;
  }
 
 button:active{
-    background:#00745e;
+    background-color:#00745e;
+    style: inset;
 }
 
 button:focus{
@@ -125,10 +104,11 @@ button:onclick{
 .checkout-panel {
   display: flex;
   flex-direction: column;
-  width: 940px;
+  width: 966px;
   height: 766px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+  margin-left:220px;
 }
 .panel-body {
   padding: 45px 80px 0;
@@ -151,7 +131,7 @@ button:onclick{
   display: flex;
   flex-direction: column;
   width: 382px;
-  height: 122px;
+  height: 150px;
   padding-top: 20px;
   cursor: pointer;
   border: 1px solid transparent;
