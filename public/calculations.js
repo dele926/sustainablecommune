@@ -10,6 +10,7 @@ function calculateTotal(){
 
 
         if (isNaN(quantity) || isNaN(price)) {
+            console.log("Quantity error");
             return;
         }
         subtotal = price * quantity;
